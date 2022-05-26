@@ -7,6 +7,8 @@
 body {
     background: #dfcdc3;
 }
+
+/* Header and Navbar styling */
 header {
     display: block;
     justify-content: center;
@@ -32,4 +34,27 @@ header nav ul li {
     padding-right: 20px;
     padding-left: 20px; 
     padding-bottom: 22px;  
+}
+
+/* div {
+    display: flex;
+
+} */
+
+
+
+figure {
+    height: 595px;
+    width: 830px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 10px;
+    border-style: solid;
+    border-color: #719192;
+    background-image: url("./mainPlaceholder.png");
+}
+
+div figure {
+    display: flex;
+    flex-wrap: wrap;
 }
